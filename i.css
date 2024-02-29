@@ -1,63 +1,63 @@
-
-
-body{
+body {
   margin: 0;
-  font-family: 'Cabinet Grotesk', sans-serif;
+  font-family: "Cabinet Grotesk", sans-serif;
 }
-.wrapper{
+.wrapper {
   max-width: 960px;
   margin: 0 auto;
 }
-h1{
-  margin: 40px auto;
+h1 {
+  margin: 48px auto;
   color: #059669;
   text-align: center;
+  font-weight: 800;
 }
-ul{
+ul {
   padding: 0;
   list-style-type: none;
 }
-li{
+li {
   padding: 6px 10px;
   border: 1px solid #eee;
   margin: 10px auto;
 }
-li h4{
+li h4 {
   color: #ff0aa7;
   margin: 0;
   text-transform: capitalize;
 }
-li p{
+li p {
   color: #333;
   margin: 8px 0 0;
 }
-footer{
+footer {
   background: #eee;
   padding: 60px;
   margin-top: 60px;
 }
-form{
+form {
   max-width: 960px;
   margin: 0 auto;
   text-align: center;
 }
-label{
+label {
   display: block;
   font-weight: bold;
   font-size: 0.8em;
   color: #333;
   margin: 16px 0 6px;
 }
-input, select{
+input,
+select {
   padding: 6px;
   border: 1px solid #e1e1e1;
   border-radius: 4px;
 }
-.field{
+.field {
   display: inline-block;
   margin: 0 10px;
 }
-button{
+button {
   color: white;
   border: 0;
   background: #059669;
@@ -65,10 +65,43 @@ button{
   min-width: 80px;
   border-radius: 4px;
 }
-footer a{
+
+button:hover {
+  background-color: #008cba; /* change to your desired color */
+  color: white; /* change to your desired color */
+}
+footer a {
   text-align: center;
   display: block;
   color: #999;
   margin-top: 40px;
   font-size: 0.7em;
 }
+
+/* ignore this styles i just added them to test smth */
+
+.bl-btn {
+ 
+  border: none;
+   
+  position: relative;
+   transition: transform 0.3s;
+}
+
+.bl-btn:hover {
+  animation: bubble 0.4s ease-out;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* to be deleted later please */
