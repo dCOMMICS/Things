@@ -5,3 +5,5 @@ const character = "Jerry";
 console.log(character);
 
 const inputs = document.querySelectorAll("input");
+
+
